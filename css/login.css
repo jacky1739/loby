@@ -1,0 +1,19 @@
+.nav {
+    background-image: url('../images/Lobby/平台svg/lobby_top_bar.svg');
+    background-repeat: no-repeat;
+    background-position: center bottom 12%;
+    background-size: 200%;
+    height: .77rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: calc(.12rem + 3vh);
+}
+.logo {
+    height: .5rem;
+    width: auto;
+}
+.backBtn {
+    height: .7rem;
+    width: .7rem;
+}
