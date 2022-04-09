@@ -53,7 +53,7 @@
           <li class="search__group">
             <p class="search__group__text">查詢時間：</p>
             <div class="d-flex justify-content-space-between align-items-center">
-              <Datepicker v-model="picked" style="
+                <input type="text" id="datepicker1" style="
                 margin-right: calc(.01rem + 1.5vh);
                 width: calc(1rem + 5vh);
                 line-height: .4rem;
@@ -63,11 +63,9 @@
                 font-size: .2rem;
                 border-radius: 7px;
                 border: 1.5px solid #856E8F;
-                cursor: pointer;"
-                >
-              </Datepicker>
+                cursor: pointer;">
               <p class="search__group__text">～</p>
-              <Datepicker v-model="picked" style="
+              <input type="text" id="datepicker2" style="
                 margin-right: calc(.01rem + 1.5vh);
                 width: calc(1rem + 5vh);
                 line-height: .4rem;
@@ -77,9 +75,7 @@
                 font-size: .2rem;
                 border-radius: 7px;
                 border: 1.5px solid #856E8F;
-                cursor: pointer;"
-                >
-              </Datepicker>
+                cursor: pointer;">
               <select class="search__group__select" name="date" id="date_select">
                 <option value="本日">本日</option>
                 <option value="昨日">昨日</option>
@@ -229,5 +225,9 @@
           </li>
         </ul>
     </div>
+    <script src="./js/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="./js/all.js"></script>
 </body>
 </html>
