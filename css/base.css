@@ -24,6 +24,9 @@ img {
 .d-flex {
     display: flex;
 }
+.d-none {
+    display: none;
+}
 .justify-content-space-between {
     justify-content: space-between;
 }
