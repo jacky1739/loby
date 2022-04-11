@@ -1,3 +1,6 @@
+.loading {
+    position: fixed;
+}
 .wrapper {
     background-image: url('../images/Lobby/平台svg/loginpage_bg.svg');
     background-repeat: no-repeat;
@@ -85,9 +88,14 @@
 
 @media (max-width: 992px) {
     .login__img {
-        font-size: .16rem;
+        width: calc(.6rem + 20vw);
     }
     .login__subtitle__text {
-        font-size: .16rem;
+        font-size: .15rem;
+    }
+}
+@media (max-width: 430px) {
+    .login__img {
+        width: calc(2rem + 40vw);
     }
 }
